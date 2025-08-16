@@ -1,3 +1,7 @@
-x = 5
-y = 3
-print("l'addition de x et y =",x+y)
+try:
+    i = 0
+    while i < 5:
+        i += 1
+        print(i)
+except Exception as e:
+    print(f"Error : {e}")
