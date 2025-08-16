@@ -9,7 +9,7 @@ while True:
         print("Le volume de votre sphère est de : ", format((4*math.pi*(r**3))/3, ".2f"))
         break
 
-    #on capture l'erreur pour l'attraper, youpi!
+    #on capture l'erreur pour l'attraper, youpi!!
     except Exception as e:
         print(f"Boom!! erreur : {e}")
     
