@@ -1,6 +1,6 @@
 while True:
     try:
-        n=int(input("Veuillez entrer le nombre de photcopie à faire : "))
+        n=int(input("Veuillez entrer le nombre de photocopie à faire : "))
         if n < 10:
             f=n*10
         elif n < 30:

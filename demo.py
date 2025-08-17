@@ -1,7 +1,9 @@
-try:
-    i = 0
-    while i < 5:
-        i += 1
-        print(i)
-except Exception as e:
-    print(f"Error : {e}")
+while True:
+    t = int(input("Veuillez entrer le nombre de seconde que vous souhaitez convertir : "))
+
+    if t < 0:
+            print("⚠️ Erreur : Le nombre de secondes ne peut pas être négatif.\n")
+            continue
+    
+    h = t // 3600
+    
